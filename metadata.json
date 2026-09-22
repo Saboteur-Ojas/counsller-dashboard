@@ -1,0 +1,6 @@
+{
+  "name": "VeerSetu Counsellor Dashboard",
+  "description": "Professional case management, session scheduling, and welfare intervention workspace for authorized CAPF counsellors.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
