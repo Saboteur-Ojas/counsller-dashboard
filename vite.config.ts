@@ -15,7 +15,7 @@ export default defineConfig(() => {
       port: 3001,
       proxy: {
         '/api': {
-          target: 'http://localhost:5000',
+          target: 'https://backendrepo-production-df11.up.railway.app',
           changeOrigin: true,
           secure: false,
         },
@@ -26,3 +26,4 @@ export default defineConfig(() => {
     },
   };
 });
+

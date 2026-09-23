@@ -17,7 +17,7 @@ const getBaseUrl = (): string => {
   if (envBase) return envBase.replace(/\/+$/, '');
   const envUrl = (import.meta as any).env?.VITE_API_URL;
   if (envUrl) return `${envUrl.replace(/\/+$/, '')}/api`;
-  return '/api';
+  return 'https://backendrepo-production-df11.up.railway.app/api';
 };
 
 export async function apiClient<T>(endpoint: string, options: RequestInit = {}): Promise<T> {
@@ -51,3 +51,4 @@ export async function apiClient<T>(endpoint: string, options: RequestInit = {}):
 }
 
 export default apiClient;
+
